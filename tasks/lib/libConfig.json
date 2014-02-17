@@ -1,0 +1,29 @@
+{
+    "bootstrap" : {
+        "url" : "https://github.com/twbs/bootstrap/releases/download/v3.1.1/bootstrap-3.1.1-dist.zip",
+        "dependencies": [
+            "jquery"
+        ]
+    },
+    "jquery" : {
+        "url" : "https://github.com/jquery/jquery"
+    },
+    "jquery.ui" : {
+        "url" : "https://github.com/jquery/jquery-ui",
+        "dependencies" : [
+            "jquery"
+        ]
+    },
+    "zepto" : {
+        "url" : "https://github.com/madrobby/zepto"
+    },
+    "seajs" : {
+        "url" : "https://github.com/seajs/seajs"
+    },
+    "d3" : {
+        "url" : "https://github.com/mbostock/d3"
+    },
+    "dojo" : {
+        "url" : "http://download.dojotoolkit.org/release-1.9.2/dojo-release-1.9.2.tar.gz"  
+    }
+}
