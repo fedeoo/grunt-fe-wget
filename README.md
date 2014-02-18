@@ -1,6 +1,6 @@
 # grunt-fe-wget
 
-> get common package for front-end
+> get common package for front-end. 自动下载所需的常用js库。
 
 ## Getting Started
 This plugin requires Grunt `~0.4.2`
@@ -58,9 +58,10 @@ In this example, the default options are used to do something with whatever. So 
 grunt.initConfig({
   fe_wget: {
     options: {},
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
+    libs: [
+      'bootstrap',
+      'd3'
+    ],
   },
 });
 ```
@@ -72,12 +73,16 @@ In this example, custom options are used to do something else with whatever else
 grunt.initConfig({
   fe_wget: {
     options: {
-      separator: ': ',
-      punctuation: ' !!!',
+      dest: "js" //download directory 
     },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
+    libs: [
+        'bootstrap',
+        {
+            name: 'd3',
+            url: 'https://github.com/mbostock/d3',
+            dest: 'dest'
+        }
+    ],
   },
 });
 ```
