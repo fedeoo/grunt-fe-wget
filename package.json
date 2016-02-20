@@ -1,48 +1,48 @@
 {
-    "name": "grunt-fe-wget",
-    "description": "get common package for front-end",
-    "version": "0.1.0",
-    "homepage": "https://github.com/fedeoo/grunt-fe-wget",
-    "author": {
-      "name": "fedeoo",
-      "email": "tragedymi@163.com",
-      "url": "fedeoo.github.io"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/fedeoo/grunt-fe-wget.git"
-    },
-    "bugs": {
-      "url": "https://github.com/fedeoo/grunt-fe-wget/issues"
-    },
-    "licenses": [
-      {
-        "type": "MIT",
-        "url": "https://github.com/fedeoo/grunt-fe-wget/blob/master/LICENSE-MIT"
-      }
-    ],
-    "engines": {
-      "node": ">= 0.8.0"
-    },
-    "scripts": {
-      "test": "grunt test"
-    },
-    "dependencies": {
-        "async": "~0.2.10",
-        "unzip": "~0.1.9",
-        "rimraf": "~2.2.6",
-        "wget": "0.0.1",
-        "tar": "~0.1.19"
-    },
-    "devDependencies": {
-      "grunt-contrib-jshint": "~0.6.0",
-      "grunt-contrib-clean": "~0.4.0",
-      "grunt-contrib-nodeunit": "~0.2.0",
-      "grunt": "~0.4.2"
-    },
-    "peerDependencies": {
-      "grunt": "~0.4.2"
-    },
+  "name": "grunt-fe-wget",
+  "description": "get common package for front-end",
+  "version": "0.1.0",
+  "homepage": "https://github.com/fedeoo/grunt-fe-wget",
+  "author": {
+    "name": "fedeoo",
+    "email": "tragedymi@163.com",
+    "url": "fedeoo.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fedeoo/grunt-fe-wget.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fedeoo/grunt-fe-wget/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/fedeoo/grunt-fe-wget/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "async": "~0.2.10",
+    "unzip": "~0.1.9",
+    "rimraf": "~2.2.6",
+    "wget": "0.0.1",
+    "tar": "~0.1.19"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
   "keywords": [
     "gruntplugin"
   ]
